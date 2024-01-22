@@ -57,9 +57,6 @@ const Hero = () => (
       >
         <i className="fa-brands fa-youtube" />
       </a>
-      <a href="https://discord.gg/EhkJZpVyvX" target="_blank" rel="noreferrer">
-        <i className="fa-brands fa-discord" />
-      </a>
     </div>
   </div>
 );
