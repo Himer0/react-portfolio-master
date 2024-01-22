@@ -1,38 +1,33 @@
 import React from "react";
 import "./Hero.css";
 import { Link } from "react-scroll";
-import Imu from "../assets/fizloki.jpeg";
+import Imu from "../assets/homer-hero-image.png";
 import Typewriter from "typewriter-effect";
 
 const Hero = () => (
   <div className="hero" id="home">
     <div className="hero-overlay">
       <div className="description">
-        <h2 className="title">hELLO. i aM Hafiz Kadir</h2>
+        <h2 className="title">hELLO. i aM Kyeth Homer G. Carballo</h2>
 
         <h3 className="tagline">
-          I do AR, Fullstack Dev, Ui/Ux, Photography and stream on Twitch for
-          fun!
+         I play video games, eat, sleep :D
         </h3>
         
        
           
         
         <p className="paragraph">
-          I'm passionate about crafting exceptional digital experiences. I bring
-          ideas to life in the virtual realm with a keyboard as my paintbrush
-          and lines of code as my canvas. Let's join forces and bring your
-          digital dreams to fruition. Get in touch, and let's embark on this
-          exciting journey together!
+         Pineapple doesnt belong on pizza because it is not a delicious pizza topping instead of something like pepperoni or at the very least olives you chose pineapple?
         </p>
         <div className="hero-btns">
           <button className="hire-me">
             <a
-              href="https://drive.google.com/file/d/1jUhLyp8Ww0NMzZK4gPTCoL_KMuQfd8eC/view?usp=sharing"
+              href="https://youtu.be/hPUSYT3aNEQ"
               target="_blank"
               rel="noreferrer"
             >
-              Get My CV
+              Check our Music Video
             </a>
           </button>
           <button className="lets-talk">
@@ -44,36 +39,19 @@ const Hero = () => (
       </div>
       <img src={Imu} alt="Fiz" className="hero-image" />
     </div>
-    <div>
-      <p align="left">
-        {" "}
-        <img
-          src="https://komarev.com/ghpvc/?username=itsfiz&label=Profile%20views&color=ce3636&style=flat"
-          alt="itsfiz"
-        />{" "}
-      </p>
-    </div>
     <div className="social-icons">
-      <a href="https://github.com/itsFiz" target="_blank" rel="noreferrer">
+      <a href="https://github.com/Himer0" target="_blank" rel="noreferrer">
         <i className="fa-brands fa-github" />
       </a>
       <a
-        href="https://www.linkedin.com/in/hfzkdr/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <i className="fa-brands fa-linkedin-in" />
-      </a>
-
-      <a
-        href="https://www.twitter.com/criedfizcken"
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
         target="_blank"
         rel="noreferrer"
       >
         <i className="fa-brands fa-twitter" />
       </a>
       <a
-        href="https://www.youtube.com/@criedfizcken6200"
+        href="https://www.youtube.com/channel/UCwg35jhluTCgLXjfTMQOyww"
         target="_blank"
         rel="noreferrer"
       >
@@ -81,27 +59,6 @@ const Hero = () => (
       </a>
       <a href="https://discord.gg/EhkJZpVyvX" target="_blank" rel="noreferrer">
         <i className="fa-brands fa-discord" />
-      </a>
-      <a
-        href="https://www.instagram.com/criedfizcken/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <i className="fa-brands fa-instagram" />
-      </a>
-      <a
-        href="https://steamcommunity.com/id/itsFizzz/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <i className="fa-brands fa-steam" />
-      </a>
-      <a
-        href="https://www.twitch.tv/criedfizcken"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <i className="fa-brands fa-twitch" />
       </a>
     </div>
   </div>

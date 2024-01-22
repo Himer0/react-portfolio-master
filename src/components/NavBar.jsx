@@ -55,7 +55,7 @@ const NavBar = () => {
               duration={500}
               to="home"
             >
-              Hafiz Kadir
+              Homer Carballo
             </Link>{' '}
             <span className="blink" />
           </h1>
