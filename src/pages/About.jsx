@@ -77,62 +77,18 @@ const About = () => (
         Development, UI/UX designing, 3D Modeling, Augmented Reality,
         Photography, and Video Editing.
       </p>
-      <button className="hire-me">
+      <button className="music-video">
         <a
-          href="https://drive.google.com/file/d/1jUhLyp8Ww0NMzZK4gPTCoL_KMuQfd8eC/view?usp=sharing"
+          href="https://www.youtube.com/watch?v=hPUSYT3aNEQ&t=19s&ab_channel=Narutouzom"
           target="_blank"
           rel="noreferrer"
         >
-          GET MY CV
+          Check our Music Video
         </a>
       </button>
-    </div>
-    <div className="about-skills">
-      <h2 className="skill-title">Clients & Collaborators</h2>
-      <div className="skills">
-        <div className="skill">
-          <img src={Petronas} alt="" />
-          <p>Petronas</p>
-        </div>
-        <div className="skill">
-          <img src={UOB} alt="" />
-          <p>UOB</p>
-        </div>
-        <div className="skill">
-          <img src={RTM} alt="" />
-          <p>RTM</p>
-        </div>
-        <div className="skill">
-          <img src={Innoveam} alt="" />
-          <p>Innoveam</p>
-        </div>
-        <div className="skill">
-          <img src={UPM} alt="" />
-          <p>UPM</p>
-        </div>
-        <div className="skill">
-          <img className="large-image2" src={MDEC} alt="" />
-          <p>MDEC</p>
-        </div>
-        <div className="skill">
-          <img src={Perkeso} alt="" />
-          <p>Perkeso</p>
-        </div>
-        <div className="skill">
-          <img src={MCMC} alt="" />
-          <p>MCMC</p>
-        </div>
-        <div className="skill">
-          <img className="large-image" src={Pharmaniaga} alt="" />
-          <p>Pharmaniaga</p>
-        </div>
-        <div className="skill">
-          <img className="large-image2" src={Litera} alt="" />
-          <p>LiteraLearn</p>
-        </div>
-      </div>
+      <div>
       <h2 className="skill-title">Front-End</h2>
-      <div className="skills">
+       <div className="skills">
         <div className="skill">
           <img src={ReactIcon} alt="" />
           <p>React</p>
@@ -140,10 +96,6 @@ const About = () => (
         <div className="skill">
           <img src={JavaScript} alt="" />
           <p>JavaScript</p>
-        </div>
-        <div className="skill">
-          <img src={ReduxIcon} alt="" />
-          <p>Redux</p>
         </div>
         <div className="skill">
           <img src={HTML} alt="" />
@@ -154,94 +106,10 @@ const About = () => (
           <p>CSS3</p>
         </div>
         <div className="skill">
-          <img src={jQuery} alt="" />
-          <p>jQuery</p>
-        </div>
-        
-        <div className="skill">
           <img src={BootStrap} alt="" />
           <p>Bootstrap</p>
         </div>
-        <div className="skill">
-          <img src={Mui} alt="" />
-          <p>MUI</p>
-        </div>
-      </div>
-      <h2 className="skill-title">Back-End</h2>
-      <div className="skills">
-        <div className="skill">
-          <img src={Ruby} alt="" />
-          <p>Ruby</p>
-        </div>
-        <div className="skill">
-          <img src={Django} alt="" />
-          <p>Django</p>
-        </div>
-        <div className="skill">
-          <img src={SpringBoot} alt="" />
-          <p>SpringBoot</p>
-        </div>
-        <div className="skill">
-          <img src={MySql} alt="" />
-          <p>MySQL</p>
-        </div>
-        <div className="skill">
-          <img src={SQLyog} alt="" />
-          <p>SQLyog</p>
-        </div>
-        <div className="skill">
-          <img src={PostgreSQL} alt="" />
-          <p>PostgreSQL</p>
-        </div>
-
-        <div className="skill">
-          <img src={Firebase} alt="" />
-          <p>Firebase</p>
-        </div>
-      </div>
-      <h2 className="skill-title">3D</h2>
-      <div className="skills">
-        <div className="skill">
-          <img src={Pixyz} alt="" />
-          <p>Pixyz</p>
-        </div>
-        <div className="skill">
-          <img src={MetaSpark} alt="" />
-          <p>Meta Spark</p>
-        </div>
-        <div className="skill">
-          <img src={Blender} alt="" />
-          <p>Blender</p>
-        </div>
-        <div className="skill">
-          <img src={Unity} alt="" />
-          <p>Unity</p>
-        </div>
-        <div className="skill">
-          <img src={Vuforia} alt="" />
-          <p>Vuforia</p>
-        </div>
-
-        <div className="skill">
-          <img src={DsMax} alt="" />
-          <p>3ds Max</p>
-        </div>
-      </div>
-      <h2 className="skill-title">Mobile</h2>
-      <div className="skills">
-      <div className="skill">
-          <img src={Flutter} alt="" />
-          <p>Flutter</p>
-        </div><div className="skill">
-          <img src={ReactIcon} alt="" />
-          <p>React Native</p>
-        </div>
-        
-
-        <div className="skill">
-          <img src={Kotlin} alt="" />
-          <p>Kotlin</p>
-        </div>
+       </div>
       </div>
       <h2 className="skill-title">Version Control & Deployment</h2>
       <div className="skills">
@@ -254,20 +122,8 @@ const About = () => (
           <p>GitHub</p>
         </div>
         <div className="skill">
-          <img src={Gitlab} alt="" />
-          <p>GitLab</p>
-        </div>
-        <div className="skill">
-          <img src={Bitbucket} alt="" />
-          <p>Bitbucket</p>
-        </div>
-        <div className="skill">
           <img src={Netlify} alt="" />
           <p>Netlify</p>
-        </div>
-        <div className="skill">
-          <img src={Heroku} alt="" />
-          <p>Heroku</p>
         </div>
       </div>
       <h2 className="skill-title">Tools</h2>
@@ -276,89 +132,22 @@ const About = () => (
           <img src={VSCode} alt="" />
           <p>VS Code</p>
         </div>
-        <div className="skill">
-          <img src={Intellij} alt="" />
-          <p>IntelliJ</p>
-        </div>
-        <div className="skill">
-          <img src={matlab} alt="" />
-          <p>Matlab</p>
-        </div>
+      </div>
 
-        <div className="skill">
-          <img src={PostMan} alt="" />
-          <p>Postman</p>
-        </div>
-        <div className="skill">
-          <img src={Android} alt="" />
-          <p>Android Studio</p>
-        </div>
-        <div className="skill">
-          <img src={NPMlogo} alt="" />
-          <p>npm</p>
-        </div>
-        
-      </div>
-      <h2 className="skill-title">Design</h2>
-      <div className="skills">
-        <div className="skill">
-          <img src={Canva} alt="" />
-          <p>Canva</p>
-        </div>
-        <div className="skill">
-          <img src={Figma} alt="" />
-          <p>Figma</p>
-        </div>
-        <div className="skill">
-          <img src={xD} alt="" />
-          <p>Adobe XD</p>
-        </div>
-        <div className="skill">
-          <img src={XMind} alt="" />
-          <p>XMind </p>
-        </div>
-        <div className="skill">
-          <img src={Drawio} alt="" />
-          <p>draw.io</p>
-        </div>
-      </div>
       <h2 className="skill-title">Communication</h2>
       <div className="skills">
       <div className="skill">
           <img src={Discord} alt="" />
           <p>Discord</p>
         </div>
-        <div className="skill">
-          <img src={Teams} alt="" />
-          <p>Teams</p>
-        </div>
-
-        <div className="skill">
-          <img src={SkypeLogo} alt="" />
-          <p>Skype</p>
-        </div>
-        <div className="skill">
-          <img src={GMeet} alt="" />
-          <p>Google Meet</p>
-        </div>
-        <div className="skill">
-          <img src={Zoomlogo} alt="" />
-          <p>Zoom</p>
-        </div>
       </div>
       <h2 className="skill-title">Soft Skills</h2>
       <div className="skills">
         <p className="soft-skill">Critical Thinking</p>
-        <p className="soft-skill">Communication</p>
-        <p className="soft-skill">Teamwork</p>
-        <p className="soft-skill">Collaboration</p>
+        <p className="soft-skill">Being Lazy¯\_(ツ)_/¯</p>
         <p className="soft-skill">Creativity</p>
-
-        <p className="soft-skill">Leadership</p>
         <p className="soft-skill">Problem Solving</p>
         <p className="soft-skill">Time Management</p>
-        <p className="soft-skill">Emotional Intelligence</p>
-        <p className="soft-skill">Adaptability</p>
       </div>
     </div>
   </section>
